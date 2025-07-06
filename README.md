@@ -1,21 +1,23 @@
-# ✈️ AirPassengers Time Series ARIMA Forecasting 📈
+# ✈️ AirPassengers Time Series Forecasting with ARIMA & SARIMAX 📈
 
-Welcome to my hands-on deep dive into **Time Series Forecasting** with the legendary AirPassengers dataset! 🚀 Today’s exploration was all about rolling up my sleeves, dissecting patterns in passenger counts from 1949 to 1960, and building predictive models that can peek into the future — because who doesn’t want to time travel with data? 😉
+Welcome to my hands-on exploration of **Time Series Forecasting** with the iconic AirPassengers dataset! 🚀 Today’s journey was all about decoding temporal patterns and building predictive models that see beyond the present.
 
 ## 🛠️ What I Did
-- **Data Exploration & Visualization:** Brought the AirPassengers dataset to life with beautiful plots that reveal trends, seasonality, and anomalies.
-- **Stationarity Checks:** Performed Augmented Dickey-Fuller tests to check the pulse of the time series and transform it into a stable state.
-- **ACF & PACF Analysis:** Diagnosed autocorrelations to strategically identify ARIMA parameters.
-- **ARIMA Modeling:** Crafted an ARIMA model.
-- **Evaluation & Forecasting:** Evaluated model performance and projected passenger volumes into the future — taking a step closer to becoming a time series forecasting ninja! 🥷📊
+- **Data Exploration & Visualization:** Plotted monthly passenger data from 1949-1960, highlighting clear trends and seasonality.
+- **Stationarity Checks:** Conducted Augmented Dickey-Fuller tests confirming non-stationarity.
+- **Transformations:** Applied differencing to stabilize the series.
+- **ACF & PACF Analysis:** Analyzed autocorrelation structures to guide model selection.
+- **Model Building:** Developed and compared:
+  - **ARIMA(5,0,4)** - manually tuned based on initial diagnostics.
+  - **Auto ARIMA** - automated parameter search for optimal ARIMA configuration.
+  - **SARIMAX(3,0,2)** - final seasonal model suggested by Auto ARIMA.
+- **Forecasting:** Generated and visualized forecasts using **SARIMAX(3,0,2)**, comparing predictions against actual passenger volumes.
 
 ## 🎯 Why This Matters
-Understanding and forecasting time series data is a cornerstone skill in data science — whether predicting airline passengers, stock prices, or demand for your favorite bubble tea. Today’s hands-on session supercharged my skills in:
-- **Modeling real-world temporal patterns**
-- **Interpreting autocorrelations**
-- **Tuning SARIMAX models for production-level insights**
+Time series forecasting unlocks insights hidden across time, whether anticipating passenger demand, inventory needs, or market movements. This hands-on session honed my ability to:
+- **Diagnose stationarity**
+- **Select optimal ARIMA/SARIMA models**
+- **Visualize forecasts and assess model performance**
 
 ## 🌟 My Takeaways
-This session wasn’t just about code — it was about storytelling with time, seeing hidden patterns in the noise, and building a predictive pipeline that’s as fun as it is powerful.
-
-I’m thrilled to share this journey and continue pushing the envelope of what’s possible in time series analysis!
+Time series modeling is about more than algorithms, it’s about telling the story of data evolving through time. Each plot and parameter taught me how subtle changes impact predictions, making the process as enlightening as it is rewarding.
